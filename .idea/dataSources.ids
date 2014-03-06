@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="db" uuid="a54a2d88-4eaa-4e1e-853b-88d8fd82c303">
+    <database-info product="ACCESS" version="12.00.0000" jdbc-version="2.0" driver-name="JDBC-ODBC Bridge (ACEODBC.DLL)" driver-version="2.0001 (Microsoft Office 2007 Access database engine)">
+      <extra-name-characters>~@#$%^&amp;*_-+=\}{&quot;&apos;;:?/&gt;&lt;,.![]|</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="mixed"/>
+    <schema name="" catalog="C:\FMS.accdb"/>
+    <table name="Facility" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="availableCapacity" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="inUse" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="downTime" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="Inspection" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="usageID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="Maintenance" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="facilityID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="cost" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="startDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="endDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="Problem" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="foundOn" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="isResolved" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="resolvedOn" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="maintenanceID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="Usage" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="facilityID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="startDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="endDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="dataSource" uuid="5da33048-1f76-4a18-8a2d-506e880b1be9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

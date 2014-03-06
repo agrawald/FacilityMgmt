@@ -1,0 +1,40 @@
+package com.fms.services.impl;
+
+import com.fms.dao.ProblemDao;
+import com.fms.models.Problem;
+import com.fms.services.ProblemSvc;
+
+/**
+ * Created by e7006722 on 6/03/14.
+ */
+public class ProblemSvcImpl implements ProblemSvc {
+    private ProblemDao problemDao;
+
+    @Override
+    public Integer save(Problem obj) {
+        return problemDao.save(obj);
+    }
+
+    @Override
+    public void update(Problem obj) {
+        problemDao.update(obj);
+    }
+
+    @Override
+    public void delete(Problem obj) {
+        problemDao.delete(obj);
+    }
+
+    @Override
+    public Problem findById(int id) {
+        return problemDao.findById(id);
+    }
+
+    public void setProblemDao(ProblemDao problemDao) {
+        this.problemDao = problemDao;
+    }
+
+    public ProblemDao getProblemDao() {
+        return problemDao;
+    }
+}
