@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="" />
+    <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -200,6 +202,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -721,12 +726,12 @@
       <workItem from="1394069306520" duration="12604000" />
       <workItem from="1394081968853" duration="92000" />
       <workItem from="1394082061645" duration="412000" />
-      <workItem from="1394082479023" duration="4965000" />
+      <workItem from="1394082479023" duration="5071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19757000" />
+    <option name="totallyTimeSpent" value="19863000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -959,13 +964,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="35" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1292">
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#254#255#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
           </folding>
         </state>
       </provider>
