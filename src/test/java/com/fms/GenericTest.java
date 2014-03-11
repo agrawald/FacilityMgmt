@@ -13,6 +13,6 @@ public abstract class GenericTest extends TestCase {
     protected void setUp() throws Exception {
         super.setUp();
         appContext =
-                new ClassPathXmlApplicationContext("spring/config/BeanLocation.xml");
+                new ClassPathXmlApplicationContext("src/webapp/WEB-INF/config/BeanLocation.xml");
     }
 }
