@@ -4,6 +4,8 @@ import com.fms.dao.UsageDao;
 import com.fms.models.Usage;
 import com.fms.services.UsageSvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class UsageSvcImpl implements UsageSvc {
     @Override
     public Usage findById(int id) {
         return usageDao.findById(id);
+    }
+
+    @Override
+    public List<Usage> findAll() {
+        return usageDao.findAll();
     }
 
     public void setUsageDao(UsageDao usageDao) {

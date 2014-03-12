@@ -92,8 +92,8 @@ public class ProblemEntity {
 
     }
 
-    public Problem toProblem(){
-        Problem problem=new Problem();
+    public Problem toProblem() {
+        Problem problem = new Problem();
         problem.setId(this.getId());
         problem.setDetails(this.getDetails());
         problem.setFoundOn(this.getFoundOn());

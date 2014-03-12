@@ -4,6 +4,8 @@ import com.fms.dao.MaintenanceDao;
 import com.fms.models.Maintenance;
 import com.fms.services.MaintenanceSvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class MaintenanceSvcImpl implements MaintenanceSvc {
     @Override
     public Maintenance findById(int id) {
         return maintenanceDao.findById(id);
+    }
+
+    @Override
+    public List<Maintenance> findAll() {
+        return maintenanceDao.findAll();
     }
 
     public void setMaintenanceDao(MaintenanceDao maintenanceDao) {

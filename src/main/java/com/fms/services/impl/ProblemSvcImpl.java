@@ -4,6 +4,8 @@ import com.fms.dao.ProblemDao;
 import com.fms.models.Problem;
 import com.fms.services.ProblemSvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class ProblemSvcImpl implements ProblemSvc {
     @Override
     public Problem findById(int id) {
         return problemDao.findById(id);
+    }
+
+    @Override
+    public List<Problem> findAll() {
+        return problemDao.findAll();
     }
 
     public void setProblemDao(ProblemDao problemDao) {

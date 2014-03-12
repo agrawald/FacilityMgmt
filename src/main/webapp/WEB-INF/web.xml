@@ -13,6 +13,19 @@
 
     <servlet-mapping>
         <servlet-name>mvc-dispatcher</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/s/*</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/css/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/js/*</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index.htm</welcome-file>
+    </welcome-file-list>
 </web-app>

@@ -10,6 +10,9 @@ public class UserEntity {
     private String name;
     private Integer facilityId;
 
+    public UserEntity() {
+    }
+
     public Integer getId() {
         return id;
     }

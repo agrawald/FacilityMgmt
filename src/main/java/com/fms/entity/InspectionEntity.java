@@ -60,9 +60,8 @@ public class InspectionEntity {
     public InspectionEntity() {
     }
 
-    public Inspection toInspection()
-    {
-        Inspection inspection=new Inspection();
+    public Inspection toInspection() {
+        Inspection inspection = new Inspection();
         inspection.setId(this.id);
         inspection.setDetails(this.getDetails());
         inspection.setUsageId(this.getUsageId());

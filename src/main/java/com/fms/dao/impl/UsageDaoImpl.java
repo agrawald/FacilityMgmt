@@ -6,6 +6,7 @@ import com.fms.models.Usage;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class UsageDaoImpl extends HibernateDaoSupport
         implements UsageDao {
     @Override
     public Integer save(Usage entity) {
-        return (Integer)getHibernateTemplate().save(new UsageEntity(entity));
+        return (Integer) getHibernateTemplate().save(new UsageEntity(entity));
     }
 
     @Override
@@ -25,15 +26,28 @@ public class UsageDaoImpl extends HibernateDaoSupport
 
     @Override
     public void delete(Usage entity) {
-        if(findById(entity.getId())!=null)
+        if (findById(entity.getId()) != null)
             getHibernateTemplate().delete(new UsageEntity(entity));
     }
 
     @Override
     public Usage findById(int id) {
         List<UsageEntity> list = getHibernateTemplate().find("from UsageEntity where id=?", id);
-        if(!CollectionUtils.isEmpty(list))
+        if (!CollectionUtils.isEmpty(list))
             return list.get(0).toUsage();
+        return null;
+    }
+
+    @Override
+    public List<Usage> findAll() {
+        List<Usage> usages;
+        List<UsageEntity> list = getHibernateTemplate().find("from UsageEntity");
+        if (!CollectionUtils.isEmpty(list)) {
+            usages = new ArrayList<Usage>(list.size());
+            for (UsageEntity usageEntity : list)
+                usages.add(usageEntity.toUsage());
+            return usages;
+        }
         return null;
     }
 }

@@ -4,6 +4,8 @@ import com.fms.dao.UserDao;
 import com.fms.models.User;
 import com.fms.services.UserSvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class UserSvcImpl implements UserSvc {
     @Override
     public User findById(int id) {
         return userDao.findById(id);
+    }
+
+    @Override
+    public List<User> findAll() {
+        return userDao.findAll();
     }
 
     public void setUserDao(UserDao userDao) {

@@ -10,6 +10,14 @@ public class Maintenance {
     private String startDate;
     private String endDate;
 
+    public Maintenance() {
+    }
+
+    public Maintenance(int id) {
+        this.id = id;
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

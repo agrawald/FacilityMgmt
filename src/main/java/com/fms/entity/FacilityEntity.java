@@ -15,6 +15,7 @@ public class FacilityEntity implements Serializable {
     private String inUse;
     private String downTime;
 
+
     public int getId() {
         return id;
     }
@@ -80,7 +81,8 @@ public class FacilityEntity implements Serializable {
         this.downTime = downTime;
     }
 
-    public FacilityEntity(){}
+    public FacilityEntity() {
+    }
 
     public FacilityEntity(Facility facility) {
         this.id = facility.getId();
@@ -91,8 +93,7 @@ public class FacilityEntity implements Serializable {
         this.downTime = facility.getDownTime();
     }
 
-    public Facility toFacility()
-    {
+    public Facility toFacility() {
         Facility facility = new Facility();
         facility.setId(this.id);
         facility.setDetails(this.details);

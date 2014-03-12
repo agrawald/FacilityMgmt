@@ -4,6 +4,8 @@ import com.fms.dao.FacilityDao;
 import com.fms.models.Facility;
 import com.fms.services.FacilitySvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class FacilitySvcImpl implements FacilitySvc {
     @Override
     public Facility findById(int id) {
         return facilityDao.findById(id);
+    }
+
+    @Override
+    public List<Facility> findAll() {
+        return facilityDao.findAll();
     }
 
     public void setFacilityDao(FacilityDao facilityDao) {

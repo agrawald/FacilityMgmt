@@ -70,8 +70,8 @@ public class UsageEntity {
         this.endDate = usage.getEndDate();
     }
 
-    public Usage toUsage(){
-        Usage usage=new Usage();
+    public Usage toUsage() {
+        Usage usage = new Usage();
         usage.setId(this.getId());
         usage.setEndDate(this.getEndDate());
         usage.setFacilityId(this.getFacilityId());

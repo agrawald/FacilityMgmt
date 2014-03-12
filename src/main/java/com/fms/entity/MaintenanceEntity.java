@@ -1,7 +1,6 @@
 package com.fms.entity;
 
 import com.fms.models.Maintenance;
-import sun.applet.Main;
 
 /**
  * Created by e7006722 on 6/03/14.
@@ -53,7 +52,8 @@ public class MaintenanceEntity {
         this.endDate = endDate;
     }
 
-    public MaintenanceEntity(){}
+    public MaintenanceEntity() {
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -80,9 +80,8 @@ public class MaintenanceEntity {
         this.endDate = maintenance.getEndDate();
     }
 
-    public Maintenance toMaintenance()
-    {
-        Maintenance maintenance=new Maintenance();
+    public Maintenance toMaintenance() {
+        Maintenance maintenance = new Maintenance();
         maintenance.setId(this.getId());
         maintenance.setCost(this.getCost());
         maintenance.setEndDate(this.getEndDate());

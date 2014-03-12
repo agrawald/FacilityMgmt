@@ -8,6 +8,13 @@ public class Inspection {
     private String details;
     private Integer usageId;
 
+    public Inspection() {
+    }
+
+    public Inspection(int id) {
+        this.id = id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

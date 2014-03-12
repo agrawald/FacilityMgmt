@@ -1,7 +1,5 @@
 package com.fms.models;
 
-import com.fms.entity.FacilityEntity;
-
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -12,6 +10,13 @@ public class Facility {
     private String name;
     private String inUse;
     private String downTime;
+
+    public Facility() {
+    }
+
+    public Facility(int id) {
+        this.id = id;
+    }
 
     @Override
     public boolean equals(Object o) {

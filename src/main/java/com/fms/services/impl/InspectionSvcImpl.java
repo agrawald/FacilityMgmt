@@ -4,6 +4,8 @@ import com.fms.dao.InspectionDao;
 import com.fms.models.Inspection;
 import com.fms.services.InspectionSvc;
 
+import java.util.List;
+
 /**
  * Created by e7006722 on 6/03/14.
  */
@@ -28,6 +30,11 @@ public class InspectionSvcImpl implements InspectionSvc {
     @Override
     public Inspection findById(int id) {
         return inspectionDao.findById(id);
+    }
+
+    @Override
+    public List<Inspection> findAll() {
+        return inspectionDao.findAll();
     }
 
     public void setInspectionDao(InspectionDao inspectionDao) {

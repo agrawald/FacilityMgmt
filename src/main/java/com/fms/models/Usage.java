@@ -9,12 +9,20 @@ public class Usage {
     private String startDate;
     private String endDate;
 
+    public Usage(int id) {
+        this.id = id;
+    }
+
+    public Usage() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Usage)) return false;
 
         Usage usage = (Usage) o;
+
 
         return id == usage.id;
 

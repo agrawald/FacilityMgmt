@@ -20,10 +20,17 @@ public class Problem {
         this.maintenanceId = maintenanceId;
     }
 
+    public Problem() {
+    }
+
     private int id;
     private String details;
     private String foundOn;
     private String isResolved;
+
+    public Problem(int id) {
+        this.id = id;
+    }
 
     private String resolvedOn;
     private Integer maintenanceId;
