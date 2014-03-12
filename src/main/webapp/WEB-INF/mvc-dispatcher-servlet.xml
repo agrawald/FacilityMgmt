@@ -1,15 +1,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <context:component-scan base-package="com.fms"/>
-
-    <bean
-            class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:database.properties"/>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+          p:location="properties/database.properties">
     </bean>
 
     <bean id="dataSource"
@@ -29,15 +24,15 @@
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.connection.url">jdbc:odbc:FMS</prop>
+                <prop key="hibernate.connection.driver_class">sun.jdbc.odbc.JdbcOdbcDriver</prop>
+                <prop key="hibernate.connection.username">fms</prop>
+                <prop key="hibernate.connection.password">fms</prop>
             </props>
         </property>
-        <property name="mappingLocations">
+        <property name="mappingDirectoryLocations">
             <list>
-                <value>classpath:UsageEntity.hbm.xml</value>
-                <value>classpath:FacilityEntity.hbm.xml</value>
-                <value>classpath:ProblemEntity.hbm.xml</value>
-                <value>classpath:MaintenanceEntity.hbm.xml</value>
-                <value>classpath:InspectionEntity.hbm.xml</value>
+                <value>hibernate</value>
             </list>
         </property>
     </bean>
@@ -47,7 +42,43 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
+    <!-- Controllers Declaration -->
+    <bean class="com.fms.controller.FacilityController">
+        <property name="facilitySvc" ref="facilitySvc"/>
+    </bean>
+
+    <bean class="com.fms.controller.InspectionController">
+        <property name="inspectionSvc" ref="inspectionSvc"/>
+    </bean>
+
+    <bean class="com.fms.controller.MaintenanceController">
+        <property name="maintenanceSvc" ref="maintenanceSvc"/>
+    </bean>
+
+    <bean class="com.fms.controller.ProblemController">
+        <property name="problemSvc" ref="problemSvc"/>
+    </bean>
+
+    <bean class="com.fms.controller.UsageController">
+        <property name="usageSvc" ref="usageSvc"/>
+    </bean>
+
+    <bean class="com.fms.controller.UserController">
+        <property name="userSvc" ref="userSvc"/>
+    </bean>
+
+
     <!-- Beans Declaration -->
+    <bean id="userSvc" class="com.fms.services.impl.UserSvcImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="userDao" class="com.fms.dao.impl.UserDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
     <bean id="facilitySvc" class="com.fms.services.impl.FacilitySvcImpl">
         <property name="facilityDao" ref="facilityDao"/>
     </bean>

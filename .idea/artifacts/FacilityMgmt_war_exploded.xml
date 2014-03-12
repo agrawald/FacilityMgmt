@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="FacilityMgmt:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/FacilityMgmt_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/FacilityMgmt</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="FacilityMgmt/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -8,6 +8,42 @@
           <element id="module-output" name="FacilityMgmt" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.0.5" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: ehcache:ehcache:1.1" />
+          <element id="library" level="project" name="Maven: cglib:cglib:2.0.2" />
+          <element id="library" level="project" name="Maven: asm:asm:1.4.3" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: hibernate:antlr:2.7.5H3" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-hibernate3:2.0.8" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-dao:2.0.8" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:2.0.8" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-webapp:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-xml:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.1.2.v20140210" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty:6.1.5" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.5" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.1.5" />
           <element id="library" level="project" name="hibernate" />
           <element id="library" level="project" name="Access_JDBC30" />
         </element>

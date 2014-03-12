@@ -6,7 +6,7 @@ package com.fms.models;
 public class User {
     private int id;
     private String name;
-    private Integer facilityId;
+    private int facilityId;
 
     public int getId() {
         return id;

@@ -41,6 +41,11 @@
       <column name="startDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="endDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
     </table>
+    <table name="User" schema="" catalog="C:\FMS.accdb" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="facilityId" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
   </data-source>
   <data-source source="LOCAL" name="dataSource" uuid="5da33048-1f76-4a18-8a2d-506e880b1be9">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>

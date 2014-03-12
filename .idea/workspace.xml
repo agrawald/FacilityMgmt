@@ -2,47 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/FMSServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/init/Initializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_8_1_5_v20120716.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\database\DataSource.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\database\Hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring.beans\Facility.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring.beans\Inspection.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring.beans\Maintenance.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring.beans\Problem.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring.beans\Usage.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring\config\BeanLocation.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\hibernate\FacilityEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/FacilityEntity.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\hibernate\InspectionEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/InspectionEntity.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\hibernate\MaintenanceEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/MaintenanceEntity.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\hibernate\ProblemEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/ProblemEntity.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\hibernate\UsageEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/UsageEntity.hbm.xml" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\properties\database.properties" afterPath="$PROJECT_DIR$/src/main/webapp/properties/database.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/InspectionController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/MaintenanceController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__hibernate_antlr_2_7_5H3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_hibernate3_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/ProblemController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/UsageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/hibernate/UserEntity.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/entity/UserEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/services/UserSvc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fms/services/impl/UserSvcImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inspection.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__asm_asm_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__cglib_cglib_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__javax_javaee_api_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_continuation_8_1_5_v20120716.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_security_8_1_5_v20120716.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_server_8_1_5_v20120716.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_hibernate_antlr_2_7_5H3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\java\com\fms\FMSServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\java\com\fms\init\Initializer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp\WEB-INF\pages\hello.jsp" afterPath="" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__javax_transaction_jta_1_0_1B.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_client_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_http_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_io_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_servlet_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_servlets_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_util_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_webapp_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_eclipse_jetty_jetty_xml_8_1_5_v20120716.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_1_2_v20140210.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_hibernate_hibernate_3_1rc2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_0_5.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_2_5_6_SEC03.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_dao_2_0_8.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp\web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacilityMgmt.iml" afterPath="$PROJECT_DIR$/FacilityMgmt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/fms/GenericTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/fms/GenericTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -130,6 +161,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" line="18" class="com.fms.controller.FacilityController" package="com.fms.controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -140,19 +186,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+            <state line="46" column="32" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2622">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <file leaf-file-name="UserEntity.hbm.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/hibernate/UserEntity.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="70" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1805">
+            <state line="9" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsageEntity.hbm.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/hibernate/UsageEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="12" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
               <folding />
             </state>
           </provider>
@@ -161,7 +216,7 @@
       <file leaf-file-name="FacilityController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="722">
+            <state line="19" column="5" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="988">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,40 +224,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Initializer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/init/Initializer.java">
+      <file leaf-file-name="facility.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.6561562" vertical-offset="0" max-vertical-offset="666">
+            <state line="16" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.6637555" vertical-offset="0" max-vertical-offset="458">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="24" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Usage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="931">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="35" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1178">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="22" selection-start="3841" selection-end="3841" vertical-scroll-proportion="0.0" vertical-offset="1826" max-vertical-offset="3971">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FMSServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/FMSServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="105" selection-start="1104" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -220,38 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config/BeanLocation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/FMSMain.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring.beans/Facility.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/utils/HibernateUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fms/services/GenericTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fms/services/FacilitySvcTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/GenericSvc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/FacilitySvcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/InspectionSvcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/MaintenanceSvcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/ProblemSvcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/UsageSvcImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fms/GenericTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database/DataSource.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/database/Hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/models/Facility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/models/Maintenance.java" />
-        <option value="db-console:/f0dd47ae/a54a2d88-4eaa-4e1e-853b-88d8fd82c303/" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/FacilityEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/InspectionEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/MaintenanceEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/ProblemEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/UsageEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fms/services/impl/FacilitySvcImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/FacilityDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/InspectionDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/MaintenanceDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/ProblemDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UsageDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fms/services/impl/InspectionSvcImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate/FacilityEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate/InspectionEntity.hbm.xml" />
@@ -261,16 +293,48 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fms/services/impl/MaintenanceSvcImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fms/services/impl/UsageSvcImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fms/services/impl/ProblemSvcImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocation.xml" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/spring/config/BeanLocation.xml" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fms/FMSServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fms/init/WebAppConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/UserSvc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/services/impl/UserSvcImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/UsageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/ProblemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/MaintenanceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/InspectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inspection.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fms/init/Initializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/init/JettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/init/ServerMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/ServerMain.java" />
+        <option value="$PROJECT_DIR$/src/webapp/spring/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/JettyServer.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web-context.xml" />
+        <option value="$PROJECT_DIR$/src/webapp/facility.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/web-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/StartJetty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/EmbeddedJetty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/MaintenanceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/FacilityDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UsageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/InspectionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/ProblemDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hibernate/UserEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp" />
       </list>
     </option>
   </component>
@@ -280,6 +344,34 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FacilityMgmt" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FacilityMgmt" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Run Configurations" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
@@ -335,6 +427,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,6 +481,10 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -414,6 +511,62 @@
               <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FacilityMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FacilityMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FacilityMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FacilityMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -438,36 +591,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FacilityMgmt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FacilityMgmt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,7 +627,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,7 +641,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40862945" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="dynamic.classpath" value="false" />
     <property name="JPA.DatabaseSchemaImportDialog" value="a54a2d88-4eaa-4e1e-853b-88d8fd82c303" />
     <property name="OverrideImplement.combined" value="true" />
@@ -533,40 +655,46 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistory" value="I" />
+    <property name="SearchEverywhereHistory" value="&#10;I" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.fms.services.impl" />
       <recent name="com.fms.services" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fms.dao.impl" />
+      <recent name="com.fms.dao" />
       <recent name="com.fms.services.impl" />
       <recent name="com.fms.services" />
-      <recent name="com.fms.dao" />
+      <recent name="com.fms.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\webapp" />
       <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp" />
       <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main" />
       <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src" />
       <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resources\spring" />
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\java\com\fms\dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src" />
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp" />
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\resource" />
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main" />
-      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\webapp" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.fms.models" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp\properties" />
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\resources" />
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main\webapp\WEB-INF" />
+      <recent name="C:\Documents and Settings\e7006722\My Documents\work\personal\workspace\FacilityMgmt\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fms" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FMSServlet">
+  <component name="RunManager" selected="Maven.FacilityMgmt [jetty:run-exploded]">
     <configuration default="false" name="FacilitySvcImplTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -580,72 +708,6 @@
       <option name="PACKAGE_NAME" value="com.fms.services.impl" />
       <option name="MAIN_CLASS_NAME" value="com.fms.services.impl.FacilitySvcImplTest" />
       <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FacilitySvcImplTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fms.services.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FacilityMgmt" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fms.services.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.fms.services.impl.FacilitySvcImplTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FacilitySvcImplTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fms.services.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FacilityMgmt" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fms.services.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.fms.services.impl.FacilitySvcImplTest" />
-      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -717,10 +779,88 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fms.init.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fms.ServerMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FacilityMgmt" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StartJetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fms.StartJetty" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FacilityMgmt" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -783,12 +923,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -798,6 +932,12 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
@@ -819,22 +959,50 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
-    <list size="7">
+    <configuration default="false" name="FacilityMgmt [jetty:run-exploded]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean:clean" />
+                <option value="jetty:run-exploded" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.52" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testSave" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testUpdate" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testDelete" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testFindById" />
-      <item index="6" class="java.lang.String" itemvalue="Application.FMSServlet" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.FacilityMgmt [jetty:run-exploded]" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testSave" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testFindById" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FMSServlet" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ServerMain" />
+      <item index="7" class="java.lang.String" itemvalue="Application.StartJetty" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FMSServlet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testSave" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testFindById" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testDelete" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testUpdate" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StartJetty" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FMSServlet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testSave" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FacilitySvcImplTest.testFindById" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -879,17 +1047,24 @@
       <workItem from="1394082479023" duration="5116000" />
       <workItem from="1394513538257" duration="2313000" />
       <workItem from="1394515870083" duration="508000" />
-      <workItem from="1394517774240" duration="1636000" />
+      <workItem from="1394517774240" duration="1677000" />
+      <workItem from="1394578714410" duration="2079000" />
+      <workItem from="1394582056695" duration="10687000" />
+      <workItem from="1394593931256" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394087570174</created>
       <updated>1394087570174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring MVC implementation and jetty">
+      <created>1394519440368</created>
+      <updated>1394519440368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24365000" />
+    <option name="totallyTimeSpent" value="38520000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -916,40 +1091,40 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25824964" sideWeight="0.5010142" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25824964" sideWeight="0.5013624" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25824964" sideWeight="0.4989858" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40871936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25824964" sideWeight="0.49863762" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2629428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918256" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23027259" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918256" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35149863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918256" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -965,7 +1140,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <MESSAGE value="Spring MVC implementation and jetty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC implementation and jetty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -973,113 +1149,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/pom.xml">
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/FMSServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate/3.1rc2/hibernate-3.1rc2.jar!/org/hibernate/cfg/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="43" selection-start="3293" selection-end="3293" vertical-scroll-proportion="-4.28" vertical-offset="1128" max-vertical-offset="3686" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/orm/hibernate3/LocalSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="637" column="0" selection-start="26660" selection-end="26660" vertical-scroll-proportion="0.0" vertical-offset="10258" max-vertical-offset="17727" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1337" column="0" selection-start="55177" selection-end="55177" vertical-scroll-proportion="0.0" vertical-offset="23729" max-vertical-offset="25916" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/InspectionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="47" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/MaintenanceEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="41" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="1539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/ProblemEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="23" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/UsageEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1349" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/f0dd47ae/a54a2d88-4eaa-4e1e-853b-88d8fd82c303/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/InspectionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/MaintenanceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/ProblemDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="356" max-vertical-offset="741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UsageDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/FacilitySvcImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/InspectionSvcImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="760" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/MaintenanceSvcImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="5" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="760" />
@@ -1088,11 +1162,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/ProblemSvcImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/UsageSvcImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="760" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/FacilityEntity.java">
@@ -1131,23 +1200,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/FacilityDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="63" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/FacilitySvc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="41" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/GenericSvc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fms/services/impl/MaintenanceSvcImplTest.java">
@@ -1163,21 +1220,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Inspection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Usage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Facility.java">
@@ -1214,59 +1256,312 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Maintenance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1045" />
+        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1045">
+          <folding>
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#675#676#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#805#806#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1005#1006#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+            <element signature="e#1131#1132#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
+            <element signature="e#1245#1246#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/UsageSvc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+        <state line="7" column="17" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/UserSvc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="722">
+        <state line="8" column="38" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/GenericSvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/UserSvcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="20" selection-start="734" selection-end="734" vertical-scroll-proportion="-7.4666667" vertical-offset="255" max-vertical-offset="874">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/UsageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/UsageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="1177" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="5" selection-start="635" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="950">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/ProblemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="40" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="969">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/MaintenanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="44" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="931">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/UsageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="640" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="931">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/InspectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="5" selection-start="665" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="931">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.14820592" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/services/impl/UsageSvcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="408" selection-end="408" vertical-scroll-proportion="0.54260087" vertical-offset="81" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="607" column="23" selection-start="24486" selection-end="24486" vertical-scroll-proportion="0.0" vertical-offset="10117" max-vertical-offset="59413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.08558559" vertical-offset="0" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/FacilityDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="855">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/MaintenanceDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="874">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/ProblemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/InspectionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.2042042" vertical-offset="111" max-vertical-offset="855">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="213" selection-end="213" vertical-scroll-proportion="0.17117117" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UsageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.35745296" vertical-offset="0" max-vertical-offset="855">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/properties/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0dd47ae/a54a2d88-4eaa-4e1e-853b-88d8fd82c303/C:\FMS&amp;dot;accdb..User">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0dd47ae/a54a2d88-4eaa-4e1e-853b-88d8fd82c303/C:\FMS&amp;dot;accdb..Usage">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Usage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1178">
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hibernate/UserEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hibernate/UsageEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="22" selection-start="3841" selection-end="3841" vertical-scroll-proportion="0.0" vertical-offset="1826" max-vertical-offset="3971">
+        <state line="120" column="21" selection-start="4212" selection-end="4212" vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3876">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1805">
+        <state line="46" column="32" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/FacilityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/FMSServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="105" selection-start="1104" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/init/Initializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.6561562" vertical-offset="0" max-vertical-offset="666">
+        <state line="19" column="5" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="988">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.6637555" vertical-offset="0" max-vertical-offset="458">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,11 +1620,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|FacilityMgmt</last-edited>
+          <last-edited>FacilityMgmt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.40862945" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1337,7 +1633,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javax:javaee-api:7.0</last-edited>
+          <last-edited>Access_JDBC30</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1348,6 +1644,12 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="jetty:run-exploded" />
+    <option value="clean jetty:run-exploded -v" />
+    <option value="clean jetty:run-exploded" />
   </component>
 </project>
 
