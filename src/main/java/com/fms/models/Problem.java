@@ -12,38 +12,39 @@ public class Problem {
         this.resolvedOn = resolvedOn;
     }
 
-    public Integer getMaintenanceId() {
+    public int getMaintenanceId() {
         return maintenanceId;
     }
 
-    public void setMaintenanceId(Integer maintenanceId) {
+    public void setMaintenanceId(int maintenanceId) {
         this.maintenanceId = maintenanceId;
     }
 
     public Problem() {
     }
 
-    private Integer id;
+    private int id;
     private String details;
     private String foundOn;
     private String isResolved;
 
-    public Problem(Integer id) {
+    public Problem(int id) {
         this.id = id;
     }
 
     private String resolvedOn;
-    private Integer maintenanceId;
+    private int maintenanceId;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Problem)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Problem problem = (Problem) o;
 
-        return id == problem.id;
+        if (id != problem.id) return false;
 
+        return true;
     }
 
     @Override
@@ -51,12 +52,13 @@ public class Problem {
         return id;
     }
 
-    public Integer getId() {
+    public int getId() {
+
 
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -4,29 +4,20 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Facility {
-    private Integer id;
-    private Integer availableCapacity;
+    private int id;
+    private int availableCapacity;
     private String details;
-    private String name;
-    private String inUse;
-    private String downTime;
-
-    public Facility() {
-    }
-
-    public Facility(Integer id) {
-        this.id = id;
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Facility)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Facility facility = (Facility) o;
 
-        return id == facility.id;
+        if (id != facility.id) return false;
 
+        return true;
     }
 
     @Override
@@ -34,20 +25,31 @@ public class Facility {
         return id;
     }
 
-    public Integer getId() {
+    private String name;
+    private String inUse;
+    private String downTime;
+
+    public Facility() {
+    }
+
+    public Facility(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
 
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getAvailableCapacity() {
+    public int getAvailableCapacity() {
         return availableCapacity;
     }
 
-    public void setAvailableCapacity(Integer availableCapacity) {
+    public void setAvailableCapacity(int availableCapacity) {
         this.availableCapacity = availableCapacity;
     }
 

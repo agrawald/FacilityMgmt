@@ -4,49 +4,32 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Usage {
-    private Integer id;
-    private Integer facilityId;
+    private int id;
+    private int facilityId;
     private String startDate;
     private String endDate;
 
-    public Usage(Integer id) {
+    public Usage(int id) {
         this.id = id;
     }
 
     public Usage() {
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Usage)) return false;
-
-        Usage usage = (Usage) o;
-
-
-        return id == usage.id;
-
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
-    }
-
-    public Integer getId() {
+    public int getId() {
 
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getFacilityId() {
+    public int getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(Integer facilityId) {
+    public void setFacilityId(int facilityId) {
         this.facilityId = facilityId;
     }
 
@@ -64,5 +47,22 @@ public class Usage {
 
     public void setEndDate(String endDate) {
         this.endDate = endDate;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Usage usage = (Usage) o;
+
+        if (id != usage.id) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
     }
 }

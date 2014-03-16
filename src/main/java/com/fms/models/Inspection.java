@@ -4,26 +4,36 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Inspection {
-    private Integer id;
+    private int id;
     private String details;
-    private Integer usageId;
+    private int usageId;
 
     public Inspection() {
     }
 
-    public Inspection(Integer id) {
+    public Inspection(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Inspection)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Inspection that = (Inspection) o;
 
-        return id == that.id;
+        if (id != that.id) return false;
 
+        return true;
     }
 
     @Override
@@ -31,16 +41,8 @@ public class Inspection {
         return id;
     }
 
-    public Integer getId() {
-
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public String getDetails() {
+
         return details;
     }
 
@@ -48,11 +50,11 @@ public class Inspection {
         this.details = details;
     }
 
-    public Integer getUsageId() {
+    public int getUsageId() {
         return usageId;
     }
 
-    public void setUsageId(Integer usageId) {
+    public void setUsageId(int usageId) {
         this.usageId = usageId;
     }
 }

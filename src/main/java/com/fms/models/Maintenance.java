@@ -4,29 +4,22 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Maintenance {
-    private Integer id;
-    private Integer facilityId;
-    private Integer cost;
+    private int id;
+    private int facilityId;
+    private int cost;
     private String startDate;
     private String endDate;
-
-    public Maintenance() {
-    }
-
-    public Maintenance(Integer id) {
-        this.id = id;
-
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Maintenance)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Maintenance that = (Maintenance) o;
 
-        return id == that.id;
+        if (id != that.id) return false;
 
+        return true;
     }
 
     @Override
@@ -34,28 +27,37 @@ public class Maintenance {
         return id;
     }
 
-    public Integer getId() {
+    public Maintenance() {
+
+    }
+
+    public Maintenance(int id) {
+        this.id = id;
+
+    }
+
+    public int getId() {
 
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getFacilityId() {
+    public int getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(Integer facilityId) {
+    public void setFacilityId(int facilityId) {
         this.facilityId = facilityId;
     }
 
-    public Integer getCost() {
+    public int getCost() {
         return cost;
     }
 
-    public void setCost(Integer cost) {
+    public void setCost(int cost) {
         this.cost = cost;
     }
 
