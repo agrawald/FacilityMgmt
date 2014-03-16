@@ -26,7 +26,7 @@
 <body>
 <h1>Facility Operations</h1>
 
-<p><a href="/FacilityMgmt">Main Menu</a></p>
+<p><a href="/">Main Menu</a></p>
 <table style="padding: 2px; text-align: center">
     <c:if test="${msg!=null}">
         <tr>

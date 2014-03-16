@@ -26,7 +26,7 @@
 <body>
 <h1>Problem Operations</h1>
 
-<p><a href="/FacilityMgmt">Main Menu</a></p>
+<p><a href="/">Main Menu</a></p>
 <table>
     <c:if test="${msg!=null}">
         <tr>
