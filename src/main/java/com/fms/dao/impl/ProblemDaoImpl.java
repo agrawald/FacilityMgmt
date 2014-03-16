@@ -4,6 +4,8 @@ import com.fms.dao.ProblemDao;
 import com.fms.entity.ProblemEntity;
 import com.fms.models.Problem;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +23,22 @@ public class ProblemDaoImpl extends GenericDaoImpl implements ProblemDao {
 
     @Override
     public void update(Problem entity) {
-        openSession().update(new ProblemEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new ProblemEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(Problem entity) {
         if (findById(entity.getId()) != null) {
-            openSession().delete(new ProblemEntity(entity));
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new ProblemEntity(entity));
+            session.flush();
+            tx.commit();
             closeSession();
         }
     }

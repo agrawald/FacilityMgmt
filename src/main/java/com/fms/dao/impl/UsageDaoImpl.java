@@ -4,6 +4,8 @@ import com.fms.dao.UsageDao;
 import com.fms.entity.UsageEntity;
 import com.fms.models.Usage;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +23,22 @@ public class UsageDaoImpl extends GenericDaoImpl implements UsageDao {
 
     @Override
     public void update(Usage entity) {
-        openSession().update(new UsageEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new UsageEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(Usage entity) {
         if (findById(entity.getId()) != null) {
-            openSession().delete(new UsageEntity(entity));
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new UsageEntity(entity));
+            session.flush();
+            tx.commit();
             closeSession();
         }
     }

@@ -4,6 +4,8 @@ import com.fms.dao.InspectionDao;
 import com.fms.entity.InspectionEntity;
 import com.fms.models.Inspection;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +23,22 @@ public class InspectionDaoImpl extends GenericDaoImpl implements InspectionDao {
 
     @Override
     public void update(Inspection entity) {
-        openSession().update(new InspectionEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new InspectionEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(Inspection entity) {
         if (findById(entity.getId()) != null) {
-            openSession().delete(new InspectionEntity(entity));
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new InspectionEntity(entity));
+            session.flush();
+            tx.commit();
             closeSession();
         }
     }

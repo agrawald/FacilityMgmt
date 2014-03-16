@@ -25,22 +25,23 @@ implements FacilityDao {
 
     @Override
     public void update(Facility entity) {
-        openSession().update(new FacilityEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new FacilityEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(Facility entity) {
-        System.out.println("entity: " + entity);
         if (findById(entity.getId()) != null) {
-            System.out.println("deleting: " + entity);
             Session session = openSession();
             Transaction tx = session.beginTransaction();
             session.delete(new FacilityEntity(entity));
             session.flush();
             tx.commit();
         }
-        System.out.println("done: " + entity);
     }
 
     @Override

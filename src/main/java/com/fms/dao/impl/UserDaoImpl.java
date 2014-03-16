@@ -4,6 +4,8 @@ import com.fms.dao.UserDao;
 import com.fms.entity.OwnerEntity;
 import com.fms.models.User;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +23,22 @@ public class UserDaoImpl extends GenericDaoImpl implements UserDao {
 
     @Override
     public void update(User entity) {
-        openSession().update(new OwnerEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new OwnerEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(User entity) {
         if (findById(entity.getId()) != null) {
-            openSession().delete(new OwnerEntity(entity));
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new OwnerEntity(entity));
+            session.flush();
+            tx.commit();
             closeSession();
         }
     }

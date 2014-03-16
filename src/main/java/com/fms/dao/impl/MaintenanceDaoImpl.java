@@ -4,6 +4,8 @@ import com.fms.dao.MaintenanceDao;
 import com.fms.entity.MaintenanceEntity;
 import com.fms.models.Maintenance;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +23,22 @@ public class MaintenanceDaoImpl extends GenericDaoImpl implements MaintenanceDao
 
     @Override
     public void update(Maintenance entity) {
-        openSession().update(new MaintenanceEntity(entity));
+        Session session = openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(new MaintenanceEntity(entity));
+        session.flush();
+        tx.commit();
         closeSession();
     }
 
     @Override
     public void delete(Maintenance entity) {
         if (findById(entity.getId()) != null) {
-            openSession().delete(new MaintenanceEntity(entity));
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new MaintenanceEntity(entity));
+            session.flush();
+            tx.commit();
             closeSession();
         }
     }
