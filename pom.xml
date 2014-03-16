@@ -85,6 +85,17 @@
             <artifactId>jetty</artifactId>
             <version>6.1.5</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -106,25 +117,6 @@
                         <include>**/*Tests.java</include>
                     </includes>
                 </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>maven-antrun-plugin</artifactId>
-                <version>1.7</version>
-                <configuration>
-                    <tasks>
-                        <copy todir="${project.basedir}/target/${project.build.finalName}/WEB-INF/lib">
-                            <fileset dir="${project.basedir}/lib" includes="**/*"/>
-                        </copy>
-                    </tasks>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
