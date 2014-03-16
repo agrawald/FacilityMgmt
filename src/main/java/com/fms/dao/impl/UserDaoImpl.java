@@ -45,7 +45,7 @@ public class UserDaoImpl extends GenericDaoImpl implements UserDao {
     @Override
     public List<User> findAll() {
         List<User> users;
-        List<OwnerEntity> list = openSession().createQuery("from UserEntity").list();
+        List<OwnerEntity> list = openSession().createQuery("from OwnerEntity").list();
         closeSession();
         if (!CollectionUtils.isEmpty(list)) {
             users = new ArrayList<User>(list.size());
