@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="remove unnecessary files">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/dao/impl/UserDaoImpl.java" />
+    <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="correcting userentity to ownerentity">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -1280,7 +1279,7 @@
       <workItem from="1394926620294" duration="11000" />
       <workItem from="1394926634226" duration="86000" />
       <workItem from="1394926725787" duration="3820000" />
-      <workItem from="1394939773512" duration="26586000" />
+      <workItem from="1394939773512" duration="26604000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394087570174</created>
@@ -1326,11 +1325,15 @@
       <created>1394966472220</created>
       <updated>1394966472220</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correcting userentity to ownerentity">
+      <created>1394966613443</created>
+      <updated>1394966613443</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79560000" />
+    <option name="totallyTimeSpent" value="79578000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1354,7 +1357,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1415,7 +1418,8 @@
     <MESSAGE value="added gitignore" />
     <MESSAGE value="optimizing url for heroku" />
     <MESSAGE value="remove unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary files" />
+    <MESSAGE value="correcting userentity to ownerentity" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcting userentity to ownerentity" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
