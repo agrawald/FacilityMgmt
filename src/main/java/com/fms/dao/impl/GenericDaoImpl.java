@@ -17,6 +17,7 @@ public abstract class GenericDaoImpl<T> {
     }
 
     public void closeSession() {
-        session.close();
+        if (session.isOpen())
+            session.close();
     }
 }
