@@ -4,6 +4,8 @@ import com.fms.dao.FacilityDao;
 import com.fms.entity.FacilityEntity;
 import com.fms.models.Facility;
 import org.apache.commons.collections.CollectionUtils;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +34,11 @@ implements FacilityDao {
         System.out.println("entity: " + entity);
         if (findById(entity.getId()) != null) {
             System.out.println("deleting: " + entity);
-            openSession().delete(new FacilityEntity(entity));
-            closeSession();
+            Session session = openSession();
+            Transaction tx = session.beginTransaction();
+            session.delete(new FacilityEntity(entity));
+            session.flush();
+            tx.commit();
         }
         System.out.println("done: " + entity);
     }
