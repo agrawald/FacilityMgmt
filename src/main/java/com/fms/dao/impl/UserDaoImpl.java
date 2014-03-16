@@ -26,7 +26,7 @@ public class UserDaoImpl extends GenericDaoImpl implements UserDao {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
         session.saveOrUpdate(new OwnerEntity(entity));
-        session.flush();
+        //session.flush();
         tx.commit();
         closeSession();
     }
