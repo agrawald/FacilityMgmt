@@ -62,6 +62,16 @@ public class FacilityController extends MultiActionController {
             return new ModelAndView("facility", "error", "Not Facility(" + id + ") found!");
     }
 
+    public ModelAndView add(HttpServletRequest request,
+                            HttpServletResponse response) throws Exception {
+        int id = Integer.valueOf(request.getParameter("searchId"));
+        Facility facility = facilitySvc.findById(id);
+        if (facility != null)
+            return new ModelAndView("facility", "facility", facility);
+        else
+            return new ModelAndView("facility", "error", "Not Facility(" + id + ") found!");
+    }
+
 
     public void setFacilitySvc(FacilitySvc facilitySvc) {
         this.facilitySvc = facilitySvc;

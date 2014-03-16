@@ -19,7 +19,7 @@ public class UsageSvcImpl implements UsageSvc {
 
     @Override
     public void update(Usage obj) {
-        usageDao.update(obj);
+        usageDao.saveOrUpdate(obj);
     }
 
     @Override

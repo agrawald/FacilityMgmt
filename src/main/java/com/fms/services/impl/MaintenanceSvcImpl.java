@@ -19,7 +19,7 @@ public class MaintenanceSvcImpl implements MaintenanceSvc {
 
     @Override
     public void update(Maintenance obj) {
-        maintenanceDao.update(obj);
+        maintenanceDao.saveOrUpdate(obj);
     }
 
     @Override

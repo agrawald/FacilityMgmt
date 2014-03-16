@@ -22,10 +22,10 @@ public class MaintenanceDaoImpl extends GenericDaoImpl implements MaintenanceDao
     }
 
     @Override
-    public void update(Maintenance entity) {
+    public void saveOrUpdate(Maintenance entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.update(new MaintenanceEntity(entity));
+        session.saveOrUpdate(new MaintenanceEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

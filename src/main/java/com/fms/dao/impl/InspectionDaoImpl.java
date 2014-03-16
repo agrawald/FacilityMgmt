@@ -22,10 +22,10 @@ public class InspectionDaoImpl extends GenericDaoImpl implements InspectionDao {
     }
 
     @Override
-    public void update(Inspection entity) {
+    public void saveOrUpdate(Inspection entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.update(new InspectionEntity(entity));
+        session.saveOrUpdate(new InspectionEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

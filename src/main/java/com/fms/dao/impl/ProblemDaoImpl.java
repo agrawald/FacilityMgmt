@@ -22,10 +22,10 @@ public class ProblemDaoImpl extends GenericDaoImpl implements ProblemDao {
     }
 
     @Override
-    public void update(Problem entity) {
+    public void saveOrUpdate(Problem entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.update(new ProblemEntity(entity));
+        session.saveOrUpdate(new ProblemEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

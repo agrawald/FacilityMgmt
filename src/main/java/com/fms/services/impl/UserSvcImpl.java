@@ -19,7 +19,7 @@ public class UserSvcImpl implements UserSvc {
 
     @Override
     public void update(User obj) {
-        userDao.update(obj);
+        userDao.saveOrUpdate(obj);
     }
 
     @Override

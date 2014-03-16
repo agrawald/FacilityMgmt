@@ -82,7 +82,7 @@
                                            onclick="onUpdateDeleteClick(this)">
                                 </td>
                                 <td>
-                                    <input type="button" id="update" name="Update" value="update"
+                                    <input type="button" id="update" name="Add/Update" value="update"
                                            onclick="onUpdateDeleteClick(this)">
                                 </td>
                             </tr>

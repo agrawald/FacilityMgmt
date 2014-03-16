@@ -19,7 +19,7 @@ public class InspectionSvcImpl implements InspectionSvc {
 
     @Override
     public void update(Inspection obj) {
-        inspectionDao.update(obj);
+        inspectionDao.saveOrUpdate(obj);
     }
 
     @Override

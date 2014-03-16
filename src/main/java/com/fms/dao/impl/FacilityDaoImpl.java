@@ -24,10 +24,10 @@ implements FacilityDao {
     }
 
     @Override
-    public void update(Facility entity) {
+    public void saveOrUpdate(Facility entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.update(new FacilityEntity(entity));
+        session.saveOrUpdate(new FacilityEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

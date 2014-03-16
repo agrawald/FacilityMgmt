@@ -19,7 +19,7 @@ public class ProblemSvcImpl implements ProblemSvc {
 
     @Override
     public void update(Problem obj) {
-        problemDao.update(obj);
+        problemDao.saveOrUpdate(obj);
     }
 
     @Override

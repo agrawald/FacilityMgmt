@@ -22,10 +22,10 @@ public class UsageDaoImpl extends GenericDaoImpl implements UsageDao {
     }
 
     @Override
-    public void update(Usage entity) {
+    public void saveOrUpdate(Usage entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.update(new UsageEntity(entity));
+        session.saveOrUpdate(new UsageEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

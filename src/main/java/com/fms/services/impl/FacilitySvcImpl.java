@@ -19,7 +19,7 @@ public class FacilitySvcImpl implements FacilitySvc {
 
     @Override
     public void update(Facility obj) {
-        facilityDao.update(obj);
+        facilityDao.saveOrUpdate(obj);
     }
 
     @Override
