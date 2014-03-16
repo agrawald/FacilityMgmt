@@ -5,8 +5,8 @@ package com.fms.models;
  */
 public class Maintenance {
     private int id;
-    private Integer facilityId;
-    private Integer cost;
+    private int facilityId;
+    private int cost;
     private String startDate;
     private String endDate;
 

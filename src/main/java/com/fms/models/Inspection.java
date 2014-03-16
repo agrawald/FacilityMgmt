@@ -6,7 +6,7 @@ package com.fms.models;
 public class Inspection {
     private int id;
     private String details;
-    private Integer usageId;
+    private int usageId;
 
     public Inspection() {
     }

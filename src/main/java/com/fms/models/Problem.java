@@ -33,7 +33,7 @@ public class Problem {
     }
 
     private String resolvedOn;
-    private Integer maintenanceId;
+    private int maintenanceId;
 
     @Override
     public boolean equals(Object o) {

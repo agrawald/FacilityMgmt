@@ -5,7 +5,7 @@ package com.fms.models;
  */
 public class Facility {
     private int id;
-    private Integer availableCapacity;
+    private int availableCapacity;
     private String details;
     private String name;
     private String inUse;

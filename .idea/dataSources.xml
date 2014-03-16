@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1450838911">
-    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="f4ef7861-248b-4054-aa99-fdda0f32d59f">
-      <driver-ref>odbc.sun</driver-ref>
-      <jdbc-driver>sun.jdbc.odbc.JdbcOdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=c:/test/FMS.accdb</jdbc-url>
-      <libraries />
-    </data-source>
-    <data-source source="LOCAL" name="PostgreSQL - d8s47g3hugbp1@ec2-50-16-201-126.compute-1.amazonaws.com" uuid="ff9735a0-f670-4ef8-91ef-001027e9674c">
+  <component name="DataSourceManagerImpl" format="xml" hash="3105345817">
+    <data-source source="LOCAL" name="ConsoleFMS DB Heroku" uuid="ff9735a0-f670-4ef8-91ef-001027e9674c">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -19,6 +13,18 @@
         <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
       </driver-properties>
       <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="FMS DB Heroku" uuid="f0863a92-23cf-4255-a2ed-2fe0bb1d4a8e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-107-20-191-205.compute-1.amazonaws.com:5432/d5iclabnal6dg2?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</jdbc-url>
+      <user-name>fxpcqqnrwgmrlh</user-name>
+      <user-password>dffcdfc7df9adfecdfe6df92dfdbdf9bdfe0dfe3dfefdfefdffcdff5df99dff3dfc9dfc5dfcedfdddfdcdfc0df9ddfc9dfcfdfe3</user-password>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.3-1101-jdbc41/postgresql-9.3-1101-jdbc41.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

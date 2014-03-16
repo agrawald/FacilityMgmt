@@ -5,7 +5,7 @@ package com.fms.models;
  */
 public class Usage {
     private int id;
-    private Integer facilityId;
+    private int facilityId;
     private String startDate;
     private String endDate;
 

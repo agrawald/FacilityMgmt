@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="f4ef7861-248b-4054-aa99-fdda0f32d59f">
-    <database-info product="ACCESS" version="12.00.0000" jdbc-version="2.0" driver-name="JDBC-ODBC Bridge (ACEODBC.DLL)" driver-version="2.0001 (Microsoft Office 2007 Access database engine)">
-      <extra-name-characters>~@#$%^&amp;*_-+=\}{&quot;&apos;;:?/&gt;&lt;,.![]|</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-    </database-info>
-    <case-sensitivity plain-identifiers="exact" quoted-identifiers="mixed"/>
-    <schema name="" catalog="c:/test\FMS.accdb"/>
-    <table name="Facility" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="availableCapacity" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="inUse" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="downTime" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-    </table>
-    <table name="Inspection" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="usageID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-    </table>
-    <table name="Maintenance" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="facilityID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="cost" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="startDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="endDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-    </table>
-    <table name="Problem" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="details" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="foundOn" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="isResolved" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="resolvedOn" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="maintenanceID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-    </table>
-    <table name="Usage" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="ID" sqlType="COUNTER" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="facilityID" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="startDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="endDate" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-    </table>
-    <table name="User" schema="" catalog="c:/test\FMS.accdb" type="TABLE">
-      <column name="id" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="facilityId" sqlType="INTEGER" length="10" precision="0" nullable="true" jdbcType="4"/>
-    </table>
-  </data-source>
-  <data-source source="LOCAL" name="PostgreSQL - d8s47g3hugbp1@ec2-50-16-201-126.compute-1.amazonaws.com" uuid="ff9735a0-f670-4ef8-91ef-001027e9674c">
+  <data-source source="LOCAL" name="ConsoleFMS DB Heroku" uuid="ff9735a0-f670-4ef8-91ef-001027e9674c">
     <database-info product="PostgreSQL" version="9.3.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.3 JDBC4 (build 1100)">
       <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
@@ -2317,5 +2270,8 @@
       <column name="startdate" sqlType="varchar" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
       <column name="enddate" sqlType="varchar" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
     </table>
+  </data-source>
+  <data-source source="LOCAL" name="FMS DB Heroku" uuid="f0863a92-23cf-4255-a2ed-2fe0bb1d4a8e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>
