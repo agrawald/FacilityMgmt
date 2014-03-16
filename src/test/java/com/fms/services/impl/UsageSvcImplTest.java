@@ -4,7 +4,6 @@ import com.fms.GenericTest;
 import com.fms.models.Usage;
 import com.fms.services.UsageSvc;
 import junit.framework.Assert;
-import junit.framework.TestCase;
 
 /**
  * Created by e7006722 on 6/03/14.
@@ -33,7 +32,7 @@ public class UsageSvcImplTest extends GenericTest {
         usage.setStartDate("01/01/2012");
         usageSvc.update(usage);
         Usage updUsage = usageSvc.findById(usage.getId());
-        Assert.assertNotNull("Usage not found",updUsage);
+        Assert.assertNotNull("Usage not found", updUsage);
         Assert.assertEquals("Not updated", "01/01/2012", updUsage.getStartDate());
     }
 

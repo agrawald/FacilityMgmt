@@ -1,10 +1,9 @@
 package com.fms.dao.impl;
 
 import com.fms.dao.UserDao;
-import com.fms.entity.UserEntity;
+import com.fms.entity.OwnerEntity;
 import com.fms.models.User;
 import org.apache.commons.collections.CollectionUtils;
-import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,40 +11,46 @@ import java.util.List;
 /**
  * Created by e7006722 on 6/03/14.
  */
-public class UserDaoImpl extends HibernateDaoSupport
-        implements UserDao {
+public class UserDaoImpl extends GenericDaoImpl implements UserDao {
     @Override
     public Integer save(User entity) {
-        return (Integer) getHibernateTemplate().save(new UserEntity(entity));
+        Integer res = (Integer) openSession().save(new OwnerEntity(entity));
+        closeSession();
+        return res;
     }
 
     @Override
     public void update(User entity) {
-        getHibernateTemplate().update(new UserEntity(entity));
+        openSession().update(new OwnerEntity(entity));
+        closeSession();
     }
 
     @Override
     public void delete(User entity) {
-        if (findById(entity.getId()) != null)
-            getHibernateTemplate().delete(new UserEntity(entity));
+        if (findById(entity.getId()) != null) {
+            openSession().delete(new OwnerEntity(entity));
+            closeSession();
+        }
     }
 
     @Override
     public User findById(int id) {
-        List<UserEntity> list = getHibernateTemplate().find("from UserEntity where id=?", id);
-        if (!CollectionUtils.isEmpty(list))
-            return list.get(0).toUser();
+        OwnerEntity list = (OwnerEntity) openSession().get(OwnerEntity.class, id);
+        closeSession();
+        if (list != null)
+            return list.toUser();
         return null;
     }
 
     @Override
     public List<User> findAll() {
         List<User> users;
-        List<UserEntity> list = getHibernateTemplate().find("from UserEntity");
+        List<OwnerEntity> list = openSession().createQuery("from UserEntity").list();
+        closeSession();
         if (!CollectionUtils.isEmpty(list)) {
             users = new ArrayList<User>(list.size());
-            for (UserEntity userEntity : list)
-                users.add(userEntity.toUser());
+            for (OwnerEntity ownerEntity : list)
+                users.add(ownerEntity.toUser());
             return users;
         }
         return null;

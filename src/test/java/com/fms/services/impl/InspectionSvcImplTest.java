@@ -4,7 +4,6 @@ import com.fms.GenericTest;
 import com.fms.models.Inspection;
 import com.fms.services.InspectionSvc;
 import junit.framework.Assert;
-import junit.framework.TestCase;
 
 /**
  * Created by e7006722 on 6/03/14.
@@ -32,7 +31,7 @@ public class InspectionSvcImplTest extends GenericTest {
         inspection.setDetails("Updated details");
         inspectionSvc.update(inspection);
         Inspection updInspection = inspectionSvc.findById(inspection.getId());
-        Assert.assertNotNull("Inspection not found",updInspection);
+        Assert.assertNotNull("Inspection not found", updInspection);
         Assert.assertEquals("Not updated", "Updated details", updInspection.getDetails());
     }
 

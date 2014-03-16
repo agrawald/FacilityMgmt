@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="hibernate">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/hibernate.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

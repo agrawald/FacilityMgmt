@@ -4,11 +4,11 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.fms.entity.InspectionEntity" table="Inspection" catalog="C:\FMS.accdb">
-        <id name="id" column="ID">
-            <generator class="increment"/>
+    <class name="com.fms.entity.InspectionEntity" table="inspection">
+        <id name="id" column="id">
+        <generator class="increment"/>
         </id>
         <property name="details" column="details"/>
-        <property name="usageId" column="usageID"/>
+        <property name="usageId" column="usageId"/>
     </class>
 </hibernate-mapping>

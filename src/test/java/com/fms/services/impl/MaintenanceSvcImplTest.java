@@ -4,7 +4,6 @@ import com.fms.GenericTest;
 import com.fms.models.Maintenance;
 import com.fms.services.MaintenanceSvc;
 import junit.framework.Assert;
-import junit.framework.TestCase;
 
 /**
  * Created by e7006722 on 6/03/14.
@@ -34,7 +33,7 @@ public class MaintenanceSvcImplTest extends GenericTest {
         maintenance.setCost(234);
         maintenanceSvc.update(maintenance);
         Maintenance updMaintenance = maintenanceSvc.findById(maintenance.getId());
-        Assert.assertNotNull("Maintenance not found",updMaintenance);
+        Assert.assertNotNull("Maintenance not found", updMaintenance);
         Assert.assertEquals("Not updated", "234", updMaintenance.getCost());
     }
 

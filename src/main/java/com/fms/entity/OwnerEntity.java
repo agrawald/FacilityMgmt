@@ -5,12 +5,12 @@ import com.fms.models.User;
 /**
  * Created by e7006722 on 12/03/14.
  */
-public class UserEntity {
+public class OwnerEntity {
     private Integer id;
     private String name;
     private Integer facilityId;
 
-    public UserEntity() {
+    public OwnerEntity() {
     }
 
     public Integer getId() {
@@ -42,7 +42,7 @@ public class UserEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        UserEntity that = (UserEntity) o;
+        OwnerEntity that = (OwnerEntity) o;
 
         if (facilityId != null ? !facilityId.equals(that.facilityId) : that.facilityId != null) return false;
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
@@ -59,7 +59,7 @@ public class UserEntity {
         return result;
     }
 
-    public UserEntity(User user) {
+    public OwnerEntity(User user) {
         this.id = user.getId();
         this.facilityId = user.getFacilityId();
         this.name = user.getName();

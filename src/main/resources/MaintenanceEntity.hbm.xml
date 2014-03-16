@@ -4,8 +4,8 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.fms.entity.MaintenanceEntity" table="Maintenance" catalog="C:\FMS.accdb">
-        <id name="id" column="ID">
+    <class name="com.fms.entity.MaintenanceEntity" table="Maintenance">
+    <id name="id" column="ID">
             <generator class="increment"/>
         </id>
         <property name="facilityId" column="facilityID"/>

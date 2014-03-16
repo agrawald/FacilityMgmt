@@ -4,14 +4,14 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.fms.entity.FacilityEntity" table="Facility" catalog="C:\FMS.accdb">
-        <id name="id" column="ID">
+    <class name="com.fms.entity.ProblemEntity" table="Problem">
+    <id name="id" column="ID">
             <generator class="increment"/>
         </id>
-        <property name="availableCapacity" column="availableCapacity"/>
         <property name="details" column="details"/>
-        <property name="name" column="name"/>
-        <property name="inUse" column="inUse"/>
-        <property name="downTime" column="downTime"/>
+        <property name="foundOn" column="foundOn"/>
+        <property name="isResolved" column="isResolved"/>
+        <property name="resolvedOn" column="resolvedOn"/>
+        <property name="maintenanceId" column="maintenanceID"/>
     </class>
 </hibernate-mapping>

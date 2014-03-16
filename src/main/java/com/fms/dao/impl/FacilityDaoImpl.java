@@ -4,7 +4,6 @@ import com.fms.dao.FacilityDao;
 import com.fms.entity.FacilityEntity;
 import com.fms.models.Facility;
 import org.apache.commons.collections.CollectionUtils;
-import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,36 +11,44 @@ import java.util.List;
 /**
  * Created by e7006722 on 6/03/14.
  */
-public class FacilityDaoImpl extends HibernateDaoSupport
-        implements FacilityDao {
+public class FacilityDaoImpl extends GenericDaoImpl
+implements FacilityDao {
+
     @Override
     public Integer save(Facility entity) {
-        return (Integer) getHibernateTemplate().save(new FacilityEntity(entity));
+        Integer result = (Integer) openSession().save(new FacilityEntity(entity));
+        closeSession();
+        return result;
     }
 
     @Override
     public void update(Facility entity) {
-        getHibernateTemplate().update(new FacilityEntity(entity));
+        openSession().update(new FacilityEntity(entity));
+        closeSession();
     }
 
     @Override
     public void delete(Facility entity) {
-        if (findById(entity.getId()) != null)
-            getHibernateTemplate().delete(new FacilityEntity(entity));
+        if (findById(entity.getId()) != null) {
+            openSession().delete(new FacilityEntity(entity));
+            closeSession();
+        }
     }
 
     @Override
     public Facility findById(int id) {
-        List<FacilityEntity> list = getHibernateTemplate().find("from FacilityEntity where id=?", id);
-        if (!CollectionUtils.isEmpty(list))
-            return list.get(0).toFacility();
+        FacilityEntity facilityEntity = (FacilityEntity) openSession().get(FacilityEntity.class, id);
+        closeSession();
+        if (facilityEntity != null)
+            return facilityEntity.toFacility();
         return null;
     }
 
     @Override
     public List<Facility> findAll() {
         List<Facility> facilities;
-        List<FacilityEntity> list = getHibernateTemplate().find("from FacilityEntity");
+        List<FacilityEntity> list = openSession().createCriteria(FacilityEntity.class).list();
+        closeSession();
         if (!CollectionUtils.isEmpty(list)) {
             facilities = new ArrayList<Facility>(list.size());
             for (FacilityEntity facilityEntity : list)

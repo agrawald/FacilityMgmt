@@ -4,7 +4,6 @@ import com.fms.GenericTest;
 import com.fms.models.Problem;
 import com.fms.services.ProblemSvc;
 import junit.framework.Assert;
-import junit.framework.TestCase;
 
 /**
  * Created by e7006722 on 6/03/14.
@@ -35,7 +34,7 @@ public class ProblemSvcImplTest extends GenericTest {
         problem.setDetails("udpated details");
         problemSvc.update(problem);
         Problem updProblem = problemSvc.findById(problem.getId());
-        Assert.assertNotNull("Problem not found",updProblem);
+        Assert.assertNotNull("Problem not found", updProblem);
         Assert.assertEquals("Not updated", "udpated details", updProblem.getDetails());
     }
 
