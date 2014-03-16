@@ -81,11 +81,11 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input type="button" id="delete" name="Delete" value="delete"
+                                    <input type="button" id="delete" name="Delete" value="Delete"
                                            onclick="onUpdateDeleteClick(this)">
                                 </td>
                                 <td>
-                                    <input type="button" id="update" name="Add/Update" value="update"
+                                    <input type="button" id="update" name="Add/Update" value="Add/Update"
                                            onclick="onUpdateDeleteClick(this)">
                                 </td>
                             </tr>
