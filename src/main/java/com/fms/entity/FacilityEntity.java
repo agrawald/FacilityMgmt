@@ -8,26 +8,16 @@ import java.io.Serializable;
  * Created by e7006722 on 6/03/14.
  */
 public class FacilityEntity implements Serializable {
-    private Integer id;
-    private Integer availableCapacity;
+    private int id;
+    private int availableCapacity;
     private String details;
     private String name;
     private String inUse;
-    private String downTime;
-
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof FacilityEntity)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         FacilityEntity that = (FacilityEntity) o;
 
@@ -41,11 +31,22 @@ public class FacilityEntity implements Serializable {
         return id;
     }
 
-    public Integer getAvailableCapacity() {
+    private String downTime;
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getAvailableCapacity() {
         return availableCapacity;
     }
 
-    public void setAvailableCapacity(Integer availableCapacity) {
+    public void setAvailableCapacity(int availableCapacity) {
         this.availableCapacity = availableCapacity;
     }
 

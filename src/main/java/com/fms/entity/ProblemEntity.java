@@ -6,19 +6,36 @@ import com.fms.models.Problem;
  * Created by e7006722 on 6/03/14.
  */
 public class ProblemEntity {
-    private Integer id;
+    private int id;
     private String details;
     private String foundOn;
     private String isResolved;
 
     private String resolvedOn;
-    private Integer maintenanceId;
+    private int maintenanceId;
 
-    public Integer getId() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ProblemEntity that = (ProblemEntity) o;
+
+        if (id != that.id) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -54,29 +71,12 @@ public class ProblemEntity {
         this.resolvedOn = resolvedOn;
     }
 
-    public Integer getMaintenanceId() {
+    public int getMaintenanceId() {
         return maintenanceId;
     }
 
-    public void setMaintenanceId(Integer maintenanceId) {
+    public void setMaintenanceId(int maintenanceId) {
         this.maintenanceId = maintenanceId;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof ProblemEntity)) return false;
-
-        ProblemEntity that = (ProblemEntity) o;
-
-        if (id != that.id) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
     }
 
     public ProblemEntity(Problem problem) {

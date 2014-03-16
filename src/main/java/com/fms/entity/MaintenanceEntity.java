@@ -6,33 +6,50 @@ import com.fms.models.Maintenance;
  * Created by e7006722 on 6/03/14.
  */
 public class MaintenanceEntity {
-    private Integer id;
-    private Integer facilityId;
-    private Integer cost;
+    private int id;
+    private int facilityId;
+    private int cost;
     private String startDate;
     private String endDate;
 
-    public Integer getId() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        MaintenanceEntity that = (MaintenanceEntity) o;
+
+        if (id != that.id) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getFacilityId() {
+    public int getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(Integer facilityId) {
+    public void setFacilityId(int facilityId) {
         this.facilityId = facilityId;
     }
 
-    public Integer getCost() {
+    public int getCost() {
         return cost;
     }
 
-    public void setCost(Integer cost) {
+    public void setCost(int cost) {
         this.cost = cost;
     }
 
@@ -53,23 +70,6 @@ public class MaintenanceEntity {
     }
 
     public MaintenanceEntity() {
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof MaintenanceEntity)) return false;
-
-        MaintenanceEntity that = (MaintenanceEntity) o;
-
-        if (id != that.id) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
     }
 
     public MaintenanceEntity(Maintenance maintenance) {

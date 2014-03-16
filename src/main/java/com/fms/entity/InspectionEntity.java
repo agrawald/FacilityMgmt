@@ -6,38 +6,14 @@ import com.fms.models.Inspection;
  * Created by e7006722 on 6/03/14.
  */
 public class InspectionEntity {
-    private Integer id;
+    private int id;
     private String details;
-    private Integer usageId;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
-
-    public Integer getUsageId() {
-        return usageId;
-    }
-
-    public void setUsageId(Integer usageId) {
-        this.usageId = usageId;
-    }
+    private int usageId;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof InspectionEntity)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         InspectionEntity that = (InspectionEntity) o;
 
@@ -49,6 +25,30 @@ public class InspectionEntity {
     @Override
     public int hashCode() {
         return id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getDetails() {
+        return details;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public int getUsageId() {
+        return usageId;
+    }
+
+    public void setUsageId(int usageId) {
+        this.usageId = usageId;
     }
 
     public InspectionEntity(Inspection inspection) {

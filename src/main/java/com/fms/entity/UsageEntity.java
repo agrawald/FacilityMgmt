@@ -6,24 +6,41 @@ import com.fms.models.Usage;
  * Created by e7006722 on 6/03/14.
  */
 public class UsageEntity {
-    private Integer id;
-    private Integer facilityId;
+    private int id;
+    private int facilityId;
     private String startDate;
     private String endDate;
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        UsageEntity that = (UsageEntity) o;
+
+        if (id != that.id) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getFacilityId() {
+    public int getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(Integer facilityId) {
+    public void setFacilityId(int facilityId) {
         this.facilityId = facilityId;
     }
 
@@ -44,23 +61,6 @@ public class UsageEntity {
     }
 
     public UsageEntity() {
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof UsageEntity)) return false;
-
-        UsageEntity that = (UsageEntity) o;
-
-        if (id != that.id) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
     }
 
     public UsageEntity(Usage usage) {

@@ -6,18 +6,18 @@ import com.fms.models.User;
  * Created by e7006722 on 12/03/14.
  */
 public class OwnerEntity {
-    private Integer id;
+    private int id;
     private String name;
-    private Integer facilityId;
+    private int facilityId;
 
     public OwnerEntity() {
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -29,11 +29,11 @@ public class OwnerEntity {
         this.name = name;
     }
 
-    public Integer getFacilityId() {
+    public int getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(Integer facilityId) {
+    public void setFacilityId(int facilityId) {
         this.facilityId = facilityId;
     }
 
@@ -44,19 +44,14 @@ public class OwnerEntity {
 
         OwnerEntity that = (OwnerEntity) o;
 
-        if (facilityId != null ? !facilityId.equals(that.facilityId) : that.facilityId != null) return false;
-        if (id != null ? !id.equals(that.id) : that.id != null) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (id != that.id) return false;
 
         return true;
     }
 
     @Override
     public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (facilityId != null ? facilityId.hashCode() : 0);
-        return result;
+        return id;
     }
 
     public OwnerEntity(User user) {
