@@ -25,7 +25,10 @@ public class ProblemDaoImpl extends GenericDaoImpl implements ProblemDao {
     public void saveOrUpdate(Problem entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.saveOrUpdate(new ProblemEntity(entity));
+        if (findById(entity.getId()) != null)
+            session.update(new ProblemEntity(entity));
+        else
+            session.save(new ProblemEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

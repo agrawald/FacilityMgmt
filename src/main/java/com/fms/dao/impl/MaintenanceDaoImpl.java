@@ -25,7 +25,10 @@ public class MaintenanceDaoImpl extends GenericDaoImpl implements MaintenanceDao
     public void saveOrUpdate(Maintenance entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.saveOrUpdate(new MaintenanceEntity(entity));
+        if (findById(entity.getId()) != null)
+            session.update(new MaintenanceEntity(entity));
+        else
+            session.save(new MaintenanceEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

@@ -27,7 +27,10 @@ implements FacilityDao {
     public void saveOrUpdate(Facility entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.saveOrUpdate(new FacilityEntity(entity));
+        if (findById(entity.getId()) != null)
+            session.update(new FacilityEntity(entity));
+        else
+            session.save(new FacilityEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

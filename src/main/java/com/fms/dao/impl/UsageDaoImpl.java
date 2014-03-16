@@ -25,7 +25,10 @@ public class UsageDaoImpl extends GenericDaoImpl implements UsageDao {
     public void saveOrUpdate(Usage entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.saveOrUpdate(new UsageEntity(entity));
+        if (findById(entity.getId()) != null)
+            session.update(new UsageEntity(entity));
+        else
+            session.save(new UsageEntity(entity));
         session.flush();
         tx.commit();
         closeSession();

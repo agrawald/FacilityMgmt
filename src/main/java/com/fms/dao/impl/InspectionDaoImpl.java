@@ -25,7 +25,10 @@ public class InspectionDaoImpl extends GenericDaoImpl implements InspectionDao {
     public void saveOrUpdate(Inspection entity) {
         Session session = openSession();
         Transaction tx = session.beginTransaction();
-        session.saveOrUpdate(new InspectionEntity(entity));
+        if (findById(entity.getId()) != null)
+            session.update(new InspectionEntity(entity));
+        else
+            session.save(new InspectionEntity(entity));
         session.flush();
         tx.commit();
         closeSession();
