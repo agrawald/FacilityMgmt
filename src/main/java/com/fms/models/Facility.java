@@ -4,8 +4,8 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Facility {
-    private int id;
-    private int availableCapacity;
+    private Integer id;
+    private Integer availableCapacity;
     private String details;
     private String name;
     private String inUse;
@@ -14,7 +14,7 @@ public class Facility {
     public Facility() {
     }
 
-    public Facility(int id) {
+    public Facility(Integer id) {
         this.id = id;
     }
 
@@ -34,12 +34,12 @@ public class Facility {
         return id;
     }
 
-    public int getId() {
+    public Integer getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

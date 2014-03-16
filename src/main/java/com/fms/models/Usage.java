@@ -4,12 +4,12 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Usage {
-    private int id;
-    private int facilityId;
+    private Integer id;
+    private Integer facilityId;
     private String startDate;
     private String endDate;
 
-    public Usage(int id) {
+    public Usage(Integer id) {
         this.id = id;
     }
 
@@ -33,12 +33,12 @@ public class Usage {
         return id;
     }
 
-    public int getId() {
+    public Integer getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

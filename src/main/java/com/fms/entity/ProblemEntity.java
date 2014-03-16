@@ -6,7 +6,7 @@ import com.fms.models.Problem;
  * Created by e7006722 on 6/03/14.
  */
 public class ProblemEntity {
-    private int id;
+    private Integer id;
     private String details;
     private String foundOn;
     private String isResolved;
@@ -14,11 +14,11 @@ public class ProblemEntity {
     private String resolvedOn;
     private Integer maintenanceId;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

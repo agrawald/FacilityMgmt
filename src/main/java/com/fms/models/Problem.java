@@ -23,17 +23,17 @@ public class Problem {
     public Problem() {
     }
 
-    private int id;
+    private Integer id;
     private String details;
     private String foundOn;
     private String isResolved;
 
-    public Problem(int id) {
+    public Problem(Integer id) {
         this.id = id;
     }
 
     private String resolvedOn;
-    private int maintenanceId;
+    private Integer maintenanceId;
 
     @Override
     public boolean equals(Object o) {
@@ -51,12 +51,12 @@ public class Problem {
         return id;
     }
 
-    public int getId() {
+    public Integer getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

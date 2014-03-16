@@ -6,15 +6,15 @@ import com.fms.models.Inspection;
  * Created by e7006722 on 6/03/14.
  */
 public class InspectionEntity {
-    private int id;
+    private Integer id;
     private String details;
-    private int usageId;
+    private Integer usageId;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -26,11 +26,11 @@ public class InspectionEntity {
         this.details = details;
     }
 
-    public int getUsageId() {
+    public Integer getUsageId() {
         return usageId;
     }
 
-    public void setUsageId(int usageId) {
+    public void setUsageId(Integer usageId) {
         this.usageId = usageId;
     }
 

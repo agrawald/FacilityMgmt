@@ -6,33 +6,33 @@ import com.fms.models.Maintenance;
  * Created by e7006722 on 6/03/14.
  */
 public class MaintenanceEntity {
-    private int id;
-    private int facilityId;
-    private int cost;
+    private Integer id;
+    private Integer facilityId;
+    private Integer cost;
     private String startDate;
     private String endDate;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public int getFacilityId() {
+    public Integer getFacilityId() {
         return facilityId;
     }
 
-    public void setFacilityId(int facilityId) {
+    public void setFacilityId(Integer facilityId) {
         this.facilityId = facilityId;
     }
 
-    public int getCost() {
+    public Integer getCost() {
         return cost;
     }
 
-    public void setCost(int cost) {
+    public void setCost(Integer cost) {
         this.cost = cost;
     }
 

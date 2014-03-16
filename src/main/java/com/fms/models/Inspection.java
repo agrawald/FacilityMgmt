@@ -4,14 +4,14 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Inspection {
-    private int id;
+    private Integer id;
     private String details;
-    private int usageId;
+    private Integer usageId;
 
     public Inspection() {
     }
 
-    public Inspection(int id) {
+    public Inspection(Integer id) {
         this.id = id;
     }
 
@@ -31,12 +31,12 @@ public class Inspection {
         return id;
     }
 
-    public int getId() {
+    public Integer getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

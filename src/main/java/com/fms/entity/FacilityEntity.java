@@ -8,19 +8,19 @@ import java.io.Serializable;
  * Created by e7006722 on 6/03/14.
  */
 public class FacilityEntity implements Serializable {
-    private int id;
-    private int availableCapacity;
+    private Integer id;
+    private Integer availableCapacity;
     private String details;
     private String name;
     private String inUse;
     private String downTime;
 
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -41,11 +41,11 @@ public class FacilityEntity implements Serializable {
         return id;
     }
 
-    public int getAvailableCapacity() {
+    public Integer getAvailableCapacity() {
         return availableCapacity;
     }
 
-    public void setAvailableCapacity(int availableCapacity) {
+    public void setAvailableCapacity(Integer availableCapacity) {
         this.availableCapacity = availableCapacity;
     }
 

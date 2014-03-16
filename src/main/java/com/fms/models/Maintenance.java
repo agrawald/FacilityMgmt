@@ -4,16 +4,16 @@ package com.fms.models;
  * Created by e7006722 on 6/03/14.
  */
 public class Maintenance {
-    private int id;
-    private int facilityId;
-    private int cost;
+    private Integer id;
+    private Integer facilityId;
+    private Integer cost;
     private String startDate;
     private String endDate;
 
     public Maintenance() {
     }
 
-    public Maintenance(int id) {
+    public Maintenance(Integer id) {
         this.id = id;
 
     }
@@ -34,12 +34,12 @@ public class Maintenance {
         return id;
     }
 
-    public int getId() {
+    public Integer getId() {
 
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

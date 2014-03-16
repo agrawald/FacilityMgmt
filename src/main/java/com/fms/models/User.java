@@ -4,22 +4,22 @@ package com.fms.models;
  * Created by e7006722 on 11/03/14.
  */
 public class User {
-    private int id;
+    private Integer id;
     private String name;
-    private int facilityId;
+    private Integer facilityId;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public User(int id) {
+    public User(Integer id) {
         this.id = id;
     }
 
     public User() {
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -37,5 +37,22 @@ public class User {
 
     public void setFacilityId(Integer facilityId) {
         this.facilityId = facilityId;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        User user = (User) o;
+
+        if (id != null ? !id.equals(user.id) : user.id != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return id != null ? id.hashCode() : 0;
     }
 }
