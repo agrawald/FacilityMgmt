@@ -24,7 +24,9 @@ public class FacilityController extends MultiActionController {
     public ModelAndView deleteOrUpdate(HttpServletRequest request,
                                        HttpServletResponse response) throws Exception {
         String action = request.getParameter("action");
+        System.out.println("action: " + action);
         if ("delete".equalsIgnoreCase(action)) {
+
             int id = Integer.valueOf(request.getParameter("id"));
             facilitySvc.delete(new Facility(id));
             return new ModelAndView("facility", "msg", "Facility(" + id + ") deleted!");
