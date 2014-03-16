@@ -77,14 +77,7 @@
                             </tr>
                             <tr>
                                 <td>Is Resolved</td>
-                                <td>
-                                    <c:if test="${problem.isResolved == 'true'}">
-                                        <input type="checkbox" name="isResolved" checked value="true">
-                                    </c:if>
-                                    <c:if test="${problem.isResolved == 'false'}">
-                                        <input type="checkbox" name="isResolved" value="false">
-                                    </c:if>
-                                </td>
+                                <td><input type="text" name="isResolved" value="${problem.isResolved}"></td>
                             </tr>
                             <tr>
                                 <td>

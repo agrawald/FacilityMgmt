@@ -82,14 +82,7 @@
                             </tr>
                             <tr>
                                 <td>In Use</td>
-                                <td>
-                                    <c:if test="${facility.inUse == 'true'}">
-                                        <input type="checkbox" name="inUse" checked value="true">
-                                    </c:if>
-                                    <c:if test="${facility.inUse == 'false'}">
-                                        <input type="checkbox" name="inUse" value="false">
-                                    </c:if>
-                                </td>
+                                <td><input type="text" name="inUse" value="${facility.inUse}">
                             </tr>
                             <tr>
                                 <td>Downtime</td>
