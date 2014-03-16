@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="added gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jtidy_jtidy_4aug2000r7_dev.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_0_alpha_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_resources_plugin_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_filtering_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_file_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_common_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_ssh_external_1_0_beta_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interactivity_api_1_0_alpha_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="DELETED" beforePath="C:\Users\poope\Documents\IdeaProject\FacilityMgmt\src\main\webapp\WEB-INF\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\poope\Documents\IdeaProject\FacilityMgmt\src\main\webapp\WEB-INF\js\scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacilityMgmt.iml" afterPath="$PROJECT_DIR$/FacilityMgmt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FacilityMgmt_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -179,11 +138,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facility.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="facility.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="345" selection-end="345" vertical-scroll-proportion="0.35139093" vertical-offset="0" max-vertical-offset="3020">
+            <state line="12" column="28" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="3020">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inspection.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inspection.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2520">
+              <folding>
+                <marker date="1394926606880" expanded="true" signature="359:442" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,6 +171,37 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintenance.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2780">
+              <folding>
+                <marker date="1394926606891" expanded="true" signature="359:442" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2760">
+              <folding>
+                <marker date="1394926606900" expanded="true" signature="359:442" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="42" selection-start="518" selection-end="518" vertical-scroll-proportion="0.4248862" vertical-offset="0" max-vertical-offset="659">
               <folding />
             </state>
           </provider>
@@ -1197,7 +1198,7 @@
       <workItem from="1394926620294" duration="11000" />
       <workItem from="1394926634226" duration="86000" />
       <workItem from="1394926725787" duration="3820000" />
-      <workItem from="1394939773512" duration="24776000" />
+      <workItem from="1394939773512" duration="25055000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394087570174</created>
@@ -1223,11 +1224,15 @@
       <created>1394963411096</created>
       <updated>1394963411096</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added gitignore">
+      <created>1394964793702</created>
+      <updated>1394964793702</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77750000" />
+    <option name="totallyTimeSpent" value="78029000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1251,7 +1256,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1266,7 +1271,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2577121" sideWeight="0.4989775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2577121" sideWeight="0.4989775" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35145888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1395,27 +1400,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fms/controller/MaintenanceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="55" selection-start="2046" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inspection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2760">
           <folding />
         </state>
       </provider>
@@ -1647,13 +1631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="518" selection-end="518" vertical-scroll-proportion="-8.310345" vertical-offset="39" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
@@ -1677,7 +1654,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/facility.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="345" selection-end="345" vertical-scroll-proportion="0.35139093" vertical-offset="0" max-vertical-offset="3020">
+        <state line="12" column="28" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="3020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/inspection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2520">
+          <folding>
+            <marker date="1394926606880" expanded="true" signature="359:442" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/maintenance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2780">
+          <folding>
+            <marker date="1394926606891" expanded="true" signature="359:442" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/problem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="2760">
+          <folding>
+            <marker date="1394926606900" expanded="true" signature="359:442" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="518" selection-end="518" vertical-scroll-proportion="0.4248862" vertical-offset="0" max-vertical-offset="659">
           <folding />
         </state>
       </provider>
