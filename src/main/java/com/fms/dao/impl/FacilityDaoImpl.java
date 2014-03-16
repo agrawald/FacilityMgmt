@@ -29,10 +29,13 @@ implements FacilityDao {
 
     @Override
     public void delete(Facility entity) {
+        System.out.println("entity: " + entity);
         if (findById(entity.getId()) != null) {
+            System.out.println("deleting: " + entity);
             openSession().delete(new FacilityEntity(entity));
             closeSession();
         }
+        System.out.println("done: " + entity);
     }
 
     @Override
