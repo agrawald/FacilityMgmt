@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e10e05e-0c27-4c10-8f9a-ee8af14f43f3" name="Default" comment="changed the Integer to int object">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/Facility.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/Facility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/Inspection.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/Inspection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/Maintenance.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/Maintenance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/Problem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/Usage.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/Usage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/fms/models/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -1467,7 +1461,7 @@
       <workItem from="1394926620294" duration="11000" />
       <workItem from="1394926634226" duration="86000" />
       <workItem from="1394926725787" duration="3820000" />
-      <workItem from="1394939773512" duration="30606000" />
+      <workItem from="1394939773512" duration="30616000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1394087570174</created>
@@ -1545,11 +1539,15 @@
       <created>1394970209512</created>
       <updated>1394970209512</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changed the Integer to int object">
+      <created>1394970629694</created>
+      <updated>1394970629694</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83580000" />
+    <option name="totallyTimeSpent" value="83590000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1573,7 +1571,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1637,9 +1635,9 @@
     <MESSAGE value="correcting userentity to ownerentity" />
     <MESSAGE value="correcting the update delete issues" />
     <MESSAGE value="changed the int to Integer object" />
-    <MESSAGE value="changed the Integer to int object" />
     <MESSAGE value="log statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="log statements" />
+    <MESSAGE value="changed the Integer to int object" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the Integer to int object" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
